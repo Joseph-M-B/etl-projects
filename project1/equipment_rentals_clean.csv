@@ -1,0 +1,71 @@
+rental_id,equipment_type,site,start_date,days,daily_rate_ngn,status
+R009,Forklift,Port Harcourt Depot,2025-04-19,18,140000.0,closed
+R056,Excavator,Uyo Road Project,2025-06-16,9,160000.0,completed
+R065,Dump Truck,Uyo Road Project,2025-05-22,21,350000.0,completed
+R029,Bulldozer,Port Harcourt Depot,,9,320000.0,active
+R014,Forklift,Eket Yard,2025-06-19,14,230000.0,closed
+R024,Roller,Calabar Bridge,2025-01-21,13,170000.0,active
+R040,Roller,Uyo Road Project,2025-03-17,15,,unknown
+R008,Excavator,Eket Yard,2025-01-26,6,150000.0,closed
+R055,Roller,Eket Yard,2025-05-18,4,200000.0,closed
+R026,Paver,Calabar Bridge,2025-02-19,6,230000.0,completed
+R001,Roller,Port Harcourt Depot,2025-04-27,18,350000.0,closed
+R039,Excavator,Port Harcourt Depot,2025-01-28,,,active
+R044,Dump Truck,Calabar Bridge,2025-02-17,25,280000.0,completed
+R027,Roller,Port Harcourt Depot,2025-02-21,28,210000.0,completed
+R036,Bulldozer,Calabar Bridge,2025-04-27,20,300000.0,active
+R049,Excavator,Port Harcourt Depot,2025-06-17,16,100000.0,active
+R003,Dump Truck,Calabar Bridge,2025-01-15,3,140000.0,active
+R053,Dump Truck,Eket Yard,2025-04-24,26,130000.0,completed
+R004,Dump Truck,Calabar Bridge,2025-06-20,11,230000.0,active
+R060,Excavator,Eket Yard,2025-05-20,,280000.0,active
+R041,Paver,Uyo Road Project,2025-06-17,26,80000.0,active
+R067,Excavator,Uyo Road Project,2025-02-16,19,160000.0,active
+R046,Forklift,Uyo Road Project,,14,280000.0,closed
+R066,Bulldozer,Calabar Bridge,2025-06-19,3,280000.0,active
+R013,Roller,Uyo Road Project,2025-04-17,7,280000.0,active
+R033,Bulldozer,Uyo Road Project,2025-06-16,29,340000.0,closed
+R031,Forklift,Uyo Road Project,2025-02-14,9,160000.0,completed
+R057,Paver,Port Harcourt Depot,2025-03-21,30,180000.0,closed
+R017,Paver,Calabar Bridge,2025-04-26,9,90000.0,active
+R030,Forklift,Uyo Road Project,2025-01-24,23,140000.0,active
+R032,Roller,Calabar Bridge,2025-04-17,16,140000.0,closed
+R061,Dump Truck,Uyo Road Project,2025-01-23,27,150000.0,completed
+R016,Forklift,Uyo Road Project,2025-02-15,9,230000.0,closed
+R047,Forklift,Eket Yard,2025-05-23,23,340000.0,active
+R010,Bulldozer,Uyo Road Project,2025-03-13,,330000.0,closed
+R054,Excavator,Calabar Bridge,2025-03-13,22,270000.0,active
+R043,Excavator,Uyo Road Project,2025-06-25,15,340000.0,closed
+R021,Roller,Eket Yard,2025-04-13,20,80000.0,closed
+R007,Forklift,Calabar Bridge,2025-04-25,4,260000.0,closed
+R018,Bulldozer,Eket Yard,2025-03-27,23,310000.0,closed
+R045,Excavator,Eket Yard,2025-02-17,6,310000.0,active
+R022,Forklift,Port Harcourt Depot,2025-03-16,30,210000.0,closed
+R006,Paver,Uyo Road Project,2025-01-25,2,350000.0,closed
+R069,Roller,Calabar Bridge,2025-06-26,10,200000.0,active
+R058,Forklift,Eket Yard,2025-04-14,7,200000.0,completed
+R038,Bulldozer,Eket Yard,2025-05-26,5,240000.0,active
+R005,Forklift,Eket Yard,2025-03-21,26,150000.0,closed
+R028,Paver,Eket Yard,2025-06-14,24,,closed
+R063,Excavator,Port Harcourt Depot,2025-05-24,,110000.0,completed
+R042,Forklift,Calabar Bridge,,21,230000.0,active
+R062,Forklift,Port Harcourt Depot,2025-02-27,28,150000.0,closed
+R019,Paver,Calabar Bridge,2025-01-14,21,280000.0,active
+R064,Forklift,Uyo Road Project,2025-03-26,26,310000.0,closed
+R011,Forklift,Calabar Bridge,2025-01-16,,,completed
+R035,Roller,Uyo Road Project,2025-04-21,2,140000.0,active
+R034,Dump Truck,Eket Yard,2025-03-23,24,350000.0,active
+R015,Dump Truck,Port Harcourt Depot,2025-02-21,25,300000.0,completed
+R002,Paver,Port Harcourt Depot,2025-01-17,,330000.0,closed
+R052,Dump Truck,Uyo Road Project,2025-05-19,20,180000.0,completed
+R037,Dump Truck,Uyo Road Project,2025-03-21,23,200000.0,closed
+R059,Paver,Calabar Bridge,2025-05-25,11,190000.0,unknown
+R012,Excavator,Calabar Bridge,2025-02-15,20,280000.0,active
+R068,Paver,Eket Yard,2025-03-19,12,230000.0,closed
+R023,Excavator,Eket Yard,2025-03-13,21,100000.0,completed
+R020,Excavator,Calabar Bridge,2025-05-27,13,310000.0,active
+R070,Bulldozer,Eket Yard,2025-06-26,13,260000.0,active
+R048,Dump Truck,Uyo Road Project,2025-02-28,8,130000.0,active
+R025,Paver,Uyo Road Project,2025-06-25,10,140000.0,closed
+R050,Roller,Uyo Road Project,2025-05-19,13,80000.0,closed
+R051,Forklift,Calabar Bridge,2025-04-24,8,270000.0,active

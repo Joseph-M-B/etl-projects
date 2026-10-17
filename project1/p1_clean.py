@@ -93,6 +93,8 @@ if not all(checks.values()):
 
 df["days"] = df["days"].astype("Int64")
 
+df.to_csv(BASE_DIR / "equipment_rentals_clean.csv", index=False, date_format="%Y-%m-%d")
+
 url = URL.create(
     "postgresql+psycopg2",
     username=os.environ["PG_USER"],
@@ -116,3 +118,4 @@ with engine.connect() as conn:
 print("rows in database:", in_db)
 if in_db != len(df):
     raise ValueError("Row count in database does not match the cleaned data")
+
