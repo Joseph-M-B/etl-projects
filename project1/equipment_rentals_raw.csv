@@ -1,0 +1,79 @@
+ Rental ID,Equipment Type,site,Start  Date,DAYS,Daily Rate (NGN),Status 
+R009,Forklift ,Port Harcourt Depot,19/04/2025,18,"140,000",closed
+R056,Excavator,Uyo Road Project ,2025-06-16,9,160000,Completed 
+R065,Dump  Truck,UYO ROAD PROJECT,2025-05-22,21,350000,COMPLETED
+R029,Bulldozer,Port Harcourt Depot,TBD,9,"₦320,000",Active
+R014,Forklift ,Eket Yard,2025-06-19,14,230000,Closed
+R024,roller ,Calabar Bridge ,21/01/2025,13,170000,active
+R040,Roller,Uyo Road Project ,"March 17, 2025",15,N/A,
+R008,Excavator,Eket Yard ,26/01/2025,6,150000,Closed
+R055,roller ,Eket Yard ,"May 18, 2025",4,200000,Closed 
+R026,Paver,calabar bridge,2025-02-19,6,"230,000",Completed
+R001,roller ,port harcourt depot,2025-04-27,18,"350,000",closed
+R039,Excavator,PORT HARCOURT DEPOT,2025-01-28,,,Active 
+R044,Dump  Truck,calabar bridge,2025-02-17,25,280000,completed
+R027,Roller,PORT HARCOURT DEPOT,2025-02-21,28,210000,Completed 
+R036,Bulldozer ,calabar bridge,"April 27, 2025",20 days,"₦300,000",active
+R049,Excavator,Port Harcourt Depot ,"June 17, 2025",16,"100,000",ACTIVE
+R003,Dump Truck,Calabar Bridge ,"January 15, 2025",3,140000,Active
+R053,dump truck,EKET YARD,2025-04-24,26,"130,000",completed
+R004,DUMP TRUCK,calabar bridge,"June 20, 2025",11,230000,Active
+R060,Excavator,EKET YARD,20/05/2025,,280000,Active 
+R041,paver,Uyo Road Project,2025-06-17,26,"80,000",active
+R067,excavator,UYO ROAD PROJECT,16/02/2025,19,"160,000",Active
+R046,Forklift,UYO ROAD PROJECT,,14,280000,Closed
+R066,Bull Dozer,Calabar Bridge ,2025-06-19,3,"₦280,000",Active
+R013,roller ,uyo road project,2025-04-17,7,"₦280,000",ACTIVE
+R033,bulldozer,Uyo Road Project ,2025-06-16,29,"340,000",Closed
+R031,Forklift ,Uyo Road Project,14/02/2025,9,"₦160,000",completed
+R057,Paver,Port Harcourt Depot,"March 21, 2025",30 days,"₦180,000",Closed 
+R017,PAVER,calabar bridge,2025-04-26,9,"90,000",active
+R030,FORKLIFT,Uyo Road Project,24/01/2025,23,"₦140,000",Active 
+R067,excavator,UYO ROAD PROJECT,16/02/2025,19,"160,000",Active
+R032,ROLLER,Calabar Bridge ,2025-04-17,16,"₦140,000",Closed
+R061,Dump  Truck,Uyo Road Project,"January 23, 2025",27,150000,Completed 
+R016,FORKLIFT,uyo road project,2025-02-15,9,230000,Closed
+R047,FORKLIFT,eket yard,2025-05-23,23,"₦340,000",Active
+R041,paver,Uyo Road Project,2025-06-17,26,"80,000",active
+R010,Bulldozer,uyo road project,13/03/2025,,"₦330,000",CLOSED
+R054,EXCAVATOR ,CALABAR BRIDGE,2025-03-13,22,"₦270,000",active
+R043,excavator,uyo road project,"June 25, 2025",15,"₦340,000",closed
+R021,ROLLER,Eket Yard,2025-04-13,20,80000,Closed 
+R007,FORKLIFT,Calabar Bridge,2025-04-25,4,"260,000",closed
+R018,Bulldozer,Eket Yard ,2025-03-27,23,"₦310,000",closed
+R045,Excavator,Eket Yard ,17/02/2025,6,"₦310,000",ACTIVE
+R022,Forklift ,Port Harcourt Depot ,16/03/2025,30,"₦210,000",CLOSED
+R006,paver,Uyo Road Project,25/01/2025,2,"350,000",Closed
+R029,Bulldozer,Port Harcourt Depot,TBD,9,"₦320,000",Active
+R069,roller ,CALABAR BRIDGE,"June 26, 2025",10,"₦200,000",ACTIVE
+R058,Forklift ,Eket Yard ,14/04/2025,7,"200,000",completed
+R038,Bulldozer,Eket Yard ,"May 26, 2025",5,"₦240,000",Active 
+R005,Forklift,Eket Yard,21/03/2025,26,150000,CLOSED
+R028,PAVER,eket yard,14/06/2025,24,N/A,CLOSED
+R063,excavator,Port Harcourt Depot ,"May 24, 2025",,"110,000",Completed 
+R042,Forklift,calabar bridge,TBD,21,"230,000",Active 
+R062,Forklift,Port Harcourt Depot ,2025-02-27,28,150000,Closed
+R019,Paver,CALABAR BRIDGE,2025-01-14,21,280000,Active 
+R064,FORKLIFT,uyo road project,26/03/2025,26,310000,closed
+R011,Forklift,CALABAR BRIDGE,16/01/2025,-3,N/A,COMPLETED
+R035,Roller,UYO ROAD PROJECT,2025-04-21,2,"140,000",Active 
+R004,Dump Truck,Calabar Bridge ,"June 20, 2025",11,230000,Active
+R034,Dump Truck,Eket Yard ,2025-03-23,24,"₦350,000",ACTIVE
+R015,Dump Truck,PORT HARCOURT DEPOT,"February 21, 2025",25,300000,COMPLETED
+R002,Paver,port harcourt depot,"January 17, 2025",,330000,Closed
+R052,Dump Truck,Uyo Road Project ,2025-05-19,20,"180,000",COMPLETED
+R037,Dump  Truck,UYO ROAD PROJECT,"March 21, 2025",23,"200,000",closed
+R059,Paver,CALABAR BRIDGE,2025-05-25,11,190000,
+R012,EXCAVATOR ,Calabar Bridge ,2025-02-15,20,"₦280,000",Active
+R068,Paver,Eket Yard ,"March 19, 2025",12 days,230000,closed
+R023,excavator,Eket Yard ,"March 13, 2025",21,"₦100,000",Completed
+R020,EXCAVATOR ,Calabar Bridge,27/05/2025,13,310000,active
+R070,Bull Dozer,Eket Yard,26/06/2025,13,"₦260,000",Active 
+R011,FORKLIFT,calabar bridge,16/01/2025,-3,N/A,COMPLETED
+R048,dump truck,UYO ROAD PROJECT,2025-02-28,8,"₦130,000",active
+R052,Dump Truck,Uyo Road Project ,2025-05-19,20,"180,000",COMPLETED
+R025,paver,Uyo Road Project ,2025-06-25,10,"₦140,000",Closed 
+R050,roller ,Uyo Road Project ,19/05/2025,13,"80,000",Closed
+R032,ROLLER,Calabar Bridge ,2025-04-17,16,"₦140,000",Closed
+R051,Forklift,Calabar Bridge,24/04/2025,8,"₦270,000",Active
+R047,Forklift ,Eket Yard,2025-05-23,23,"₦340,000",Active

@@ -1,0 +1,9 @@
+rental_id,equipment_type,site,start_date,days,daily_rate_ngn,status
+R067,Excavator,Uyo Road Project,2025-02-16,19.0,160000.0,active
+R041,Paver,Uyo Road Project,2025-06-17,26.0,80000.0,active
+R029,Bulldozer,Port Harcourt Depot,,9.0,320000.0,active
+R004,Dump Truck,Calabar Bridge,2025-06-20,11.0,230000.0,active
+R011,Forklift,Calabar Bridge,2025-01-16,,,completed
+R052,Dump Truck,Uyo Road Project,2025-05-19,20.0,180000.0,completed
+R032,Roller,Calabar Bridge,2025-04-17,16.0,140000.0,closed
+R047,Forklift,Eket Yard,2025-05-23,23.0,340000.0,active
