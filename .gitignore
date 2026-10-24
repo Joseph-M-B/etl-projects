@@ -11,3 +11,5 @@ venv/
 # editor and OS files
 .vscode/
 Thumbs.db
+
+*.log

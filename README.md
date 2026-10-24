@@ -58,3 +58,41 @@ learning scripts used to study the API (status codes, headers, JSON).
 running anything.
 
 Requires: pandas, requests, sqlalchemy, psycopg2-binary
+
+
+## Project 3: Multi-source pipeline (rentals CSV + weather API)
+
+Combines two sources: a CSV of equipment rentals (one row per rental) and daily
+weather from the Open-Meteo API (one row per site per day). For each rental it
+calculates rainy days, total rainfall and average maximum temperature over the
+rental period, and loads the result into PostgreSQL. Rental data is synthetic;
+site coordinates are approximate. Weather data by Open-Meteo.com (non-commercial use).
+
+### Design decisions
+- Grain: rentals are expanded to one row per rental day before joining, so the
+  join cannot multiply rentals; the join is checked to keep the rental count
+- The weather date window is calculated from the rentals, not hard-coded
+- Rentals with a missing start date or missing days are quarantined to
+  `rentals_quarantine.csv` with a reason, never dropped silently
+- Retries with backoff for network errors, 429 and 5xx; no retries for 4xx errors
+- Six validation checks run before anything is loaded; a failure stops the run
+- Logging to the screen and to `pipeline.log`
+- Load is an upsert on `rental_id`, so re-running never duplicates rows
+
+### Assumptions (to confirm with a client)
+A rental of N days starting on date D covers D to D + N - 1.
+A rainy day is a day with at least 1 mm of rain.
+
+### Tested
+- 70 rentals: 61 enriched and 9 quarantined (3 missing start date, 6 missing days)
+- Running twice leaves 61 rows
+- Deleted one site's rows (45 left) and changed values by hand; one re-run restored
+  61 rows and the correct values
+- A deliberately unreachable API address gave two logged retries and a clear
+  failure message
+
+### How to run
+Set PG_USER, PG_PASSWORD, PG_HOST, PG_PORT and PG_DB (internet access is needed
+for the API), then run `python project3/p3_run.py`.
+
+Requires: pandas, requests, sqlalchemy, psycopg2-binary

@@ -1,0 +1,10 @@
+rental_id,equipment_type,site,start_date,days,daily_rate_ngn,status,reason
+R029,Bulldozer,Port Harcourt Depot,,9.0,320000.0,active,missing start_date
+R039,Excavator,Port Harcourt Depot,2025-01-28,,,active,missing days
+R060,Excavator,Eket Yard,2025-05-20,,280000.0,active,missing days
+R046,Forklift,Uyo Road Project,,14.0,280000.0,closed,missing start_date
+R010,Bulldozer,Uyo Road Project,2025-03-13,,330000.0,closed,missing days
+R063,Excavator,Port Harcourt Depot,2025-05-24,,110000.0,completed,missing days
+R042,Forklift,Calabar Bridge,,21.0,230000.0,active,missing start_date
+R011,Forklift,Calabar Bridge,2025-01-16,,,completed,missing days
+R002,Paver,Port Harcourt Depot,2025-01-17,,330000.0,closed,missing days
