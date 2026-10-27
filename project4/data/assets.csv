@@ -1,0 +1,61 @@
+asset_id,equipment_type,home_site
+EXC-01,Excavator,Eket Yard
+EXC-02,Excavator,Calabar Bridge
+EXC-03,Excavator,Eket Yard
+EXC-04,Excavator,Uyo Road Project
+EXC-05,Excavator,Port Harcourt Depot
+EXC-06,Excavator,Port Harcourt Depot
+EXC-07,Excavator,Port Harcourt Depot
+EXC-08,Excavator,Uyo Road Project
+EXC-09,Excavator,Eket Yard
+EXC-10,Excavator,Eket Yard
+BUL-01,Bulldozer,Eket Yard
+BUL-02,Bulldozer,Calabar Bridge
+BUL-03,Bulldozer,Eket Yard
+BUL-04,Bulldozer,Port Harcourt Depot
+BUL-05,Bulldozer,Eket Yard
+BUL-06,Bulldozer,Port Harcourt Depot
+BUL-07,Bulldozer,Calabar Bridge
+BUL-08,Bulldozer,Uyo Road Project
+BUL-09,Bulldozer,Port Harcourt Depot
+BUL-10,Bulldozer,Calabar Bridge
+PAV-01,Paver,Calabar Bridge
+PAV-02,Paver,Calabar Bridge
+PAV-03,Paver,Port Harcourt Depot
+PAV-04,Paver,Eket Yard
+PAV-05,Paver,Calabar Bridge
+PAV-06,Paver,Eket Yard
+PAV-07,Paver,Calabar Bridge
+PAV-08,Paver,Calabar Bridge
+PAV-09,Paver,Port Harcourt Depot
+PAV-10,Paver,Uyo Road Project
+ROL-01,Roller,Calabar Bridge
+ROL-02,Roller,Eket Yard
+ROL-03,Roller,Calabar Bridge
+ROL-04,Roller,Calabar Bridge
+ROL-05,Roller,Port Harcourt Depot
+ROL-06,Roller,Port Harcourt Depot
+ROL-07,Roller,Eket Yard
+ROL-08,Roller,Port Harcourt Depot
+ROL-09,Roller,Port Harcourt Depot
+ROL-10,Roller,Eket Yard
+DMP-01,Dump Truck,Port Harcourt Depot
+DMP-02,Dump Truck,Port Harcourt Depot
+DMP-03,Dump Truck,Port Harcourt Depot
+DMP-04,Dump Truck,Calabar Bridge
+DMP-05,Dump Truck,Port Harcourt Depot
+DMP-06,Dump Truck,Port Harcourt Depot
+DMP-07,Dump Truck,Eket Yard
+DMP-08,Dump Truck,Uyo Road Project
+DMP-09,Dump Truck,Uyo Road Project
+DMP-10,Dump Truck,Eket Yard
+FRK-01,Forklift,Eket Yard
+FRK-02,Forklift,Port Harcourt Depot
+FRK-03,Forklift,Port Harcourt Depot
+FRK-04,Forklift,Uyo Road Project
+FRK-05,Forklift,Port Harcourt Depot
+FRK-06,Forklift,Uyo Road Project
+FRK-07,Forklift,Eket Yard
+FRK-08,Forklift,Port Harcourt Depot
+FRK-09,Forklift,Port Harcourt Depot
+FRK-10,Forklift,Calabar Bridge

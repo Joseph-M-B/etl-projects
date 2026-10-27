@@ -1,0 +1,94 @@
+sources:
+  - name: assets
+    type: csv
+    path: data/assets.csv
+    table: assets
+    columns:
+      asset_id: TEXT
+      equipment_type: TEXT
+      home_site: TEXT
+    primary_key: [asset_id]
+    required: [asset_id, equipment_type, home_site]
+    clean:
+      case:
+        equipment_type: title
+        home_site: title
+
+  - name: maintenance_events
+    type: csv
+    path: data/maintenance_events.csv
+    table: maintenance_events
+    columns:
+      event_id: TEXT
+      asset_id: TEXT
+      equipment_type: TEXT
+      site: TEXT
+      breakdown_start: TIMESTAMP
+      repair_end: TIMESTAMP
+      cause: TEXT
+    primary_key: [event_id]
+    required: [event_id, asset_id, breakdown_start, cause]
+    clean:
+      drop_duplicates: true
+      case:
+        equipment_type: title
+        site: title
+        cause: title
+    checks:
+      - type: foreign_key
+        column: asset_id
+        references_source: assets
+        references_column: asset_id
+      - type: date_order
+        earlier: breakdown_start
+        later: repair_end
+
+  - name: weather_daily
+    type: api
+    table: weather_daily
+    api:
+      url: https://archive-api.open-meteo.com/v1/archive
+      location_column: site
+      locations:
+        Eket Yard: [4.64, 7.92]
+        Uyo Road Project: [5.03, 7.93]
+        Calabar Bridge: [4.95, 8.32]
+        Port Harcourt Depot: [4.82, 7.03]
+      params:
+        daily: temperature_2m_max,precipitation_sum
+        timezone: Africa/Lagos
+      start_date: "2025-01-01"
+      end_date: "2025-07-14"
+      incremental:
+        date_column: weather_date
+        lookback_days: 3
+      rename:
+        time: weather_date
+        temperature_2m_max: temp_max_c
+        precipitation_sum: precip_mm
+    columns:
+      site: TEXT
+      weather_date: DATE
+      temp_max_c: NUMERIC(5,2)
+      precip_mm: NUMERIC(6,2)
+    primary_key: [site, weather_date]
+    required: [site, weather_date]
+  - name: sites
+    type: csv
+    path: data/sites.csv
+    table: sites
+    columns:
+      site: TEXT
+      state: TEXT
+      latitude: NUMERIC(8,5)
+      longitude: NUMERIC(8,5)
+    primary_key: [site]
+    required: [site, state]
+    clean:
+      case:
+        site: title
+        state: title
+
+
+
+         

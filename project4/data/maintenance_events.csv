@@ -1,0 +1,166 @@
+event_id,asset_id,equipment_type,site,breakdown_start,repair_end,cause
+E0093,FRK-02,Forklift,Port Harcourt Depot,2025-05-15 14:00,2025-05-15 19:48,Tyres / Tracks
+E0112,ROL-10,Roller,Eket Yard,2025-03-01 15:00,2025-03-01 22:18, Engine 
+E0016,EXC-02,Excavator,Calabar Bridge,2025-03-14 14:00,2025-03-14 18:54,Electrical
+E0141,DMP-08,Dump Truck,Uyo Road Project,2025-06-12 04:15,2025-06-12 09:15,Electrical
+E0135,ROL-03,Roller,Calabar Bridge,2025-04-29 03:15,2025-05-02 05:15,Operator damage
+E0122,EXC-06,Excavator,Port Harcourt Depot,2025-05-23 23:00,2025-05-24 16:48,Hydraulic
+E0022,ROL-05,Roller,Port Harcourt Depot,2025-03-17 21:15,2025-03-18 06:51,Engine
+E0089,BUL-04,Bulldozer,Port Harcourt Depot,2025-02-21 17:30,2025-02-22 20:54,Engine
+E0148,ROL-06,Roller,Port Harcourt Depot,2025-06-14 05:30,2025-06-15 05:30,Engine
+E0081,EXC-07,Excavator,Port Harcourt Depot,2025-02-25 08:45,2025-02-25 19:51,Hydraulic
+E0052,EXC-09,Excavator,Eket Yard,2025-05-20 21:30,2025-05-21 03:36,Tyres / Tracks
+E0055,BUL-10,Bulldozer,Calabar Bridge,2025-02-12 18:30,2025-02-13 10:12,Hydraulic
+E0012,ROL-09,Roller,Port Harcourt Depot,2025-05-15 22:15,2025-05-16 03:15,Tyres / Tracks
+E0021,EXC-09,Excavator,Eket Yard,2025-03-04 21:45,2025-03-05 04:51,Electrical
+E0058,DMP-07,Dump Truck,Eket Yard,2025-02-13 02:00,2025-02-13 05:18,electrical
+E0110,DMP-09,Dump Truck,Uyo Road Project,2025-03-18 05:00,2025-03-18 19:12,Hydraulic
+E0100,PAV-08,Paver,Calabar Bridge,2025-04-14 06:15,2025-04-14 09:21,Electrical
+E0086,ROL-01,Roller,Calabar Bridge,2025-05-14 12:30,2025-05-14 19:30,Electrical
+E0150,DMP-09,Dump Truck,Uyo Road Project,2025-04-02 09:45,2025-04-02 20:45,Engine
+E0074,PAV-08,Paver,Calabar Bridge,2025-03-16 01:45,2025-03-16 21:15,Engine
+E0139,PAV-09,Paver,Port Harcourt Depot,2025-03-25 08:30,2025-03-25 14:12,Electrical
+E0158,FRK-09,Forklift,Port Harcourt Depot,2025-07-05 16:15,2025-07-07 08:57,Operator damage
+E0076,EXC-03,Excavator,Eket Yard,2025-07-04 17:30,2025-07-05 00:36,Tyres / Tracks
+E0146,BUL-10,Bulldozer,Calabar Bridge,2025-04-05 05:45,2025-04-05 14:09,Hydraulic
+E0037,BUL-09,Bulldozer,Port Harcourt Depot,2025-04-03 18:00,2025-04-04 07:42, Operator damage 
+E0156,DMP-02,Dump Truck,Port Harcourt Depot,2025-05-02 11:15,2025-05-02 22:27,HYDRAULIC
+E0090,DMP-10,Dump Truck,Eket Yard,2025-06-16 06:30,2025-06-16 11:24, Tyres / Tracks 
+E0025,FRK-05,Forklift,Port Harcourt Depot,2025-04-23 11:15,2025-04-23 20:33,Hydraulic
+E0138,EXC-08,Excavator,Uyo Road Project,2025-05-08 02:00,2025-05-08 23:06,Hydraulic
+E0149,FRK-02,Forklift,Port Harcourt Depot,2025-06-14 15:30,2025-06-15 04:48,Electrical
+E0040,EXC-02,Excavator,Calabar Bridge,2025-03-23 21:15,2025-03-24 06:33,Engine
+E0134,EXC-09,Excavator,Eket Yard,2025-04-27 10:30,2025-04-27 20:30,Hydraulic
+E0057,PAV-08,Paver,Calabar Bridge,2025-06-22 21:15,2025-06-25 12:21,Engine
+E0031,ROL-08,Roller,Port Harcourt Depot,2025-03-02 17:30,2025-03-02 21:18,Tyres / Tracks
+E0128,ROL-02,Roller,Eket Yard,2025-03-26 18:45,2025-03-26 23:57,Tyres / Tracks
+E0071,EXC-10,Excavator,Eket Yard,2025-02-09 08:00,2025-02-09 12:30,Electrical
+E0159,EXC-06,Excavator,Port Harcourt Depot,2025-01-25 16:45,2025-01-26 00:09,Hydraulic
+E0130,DMP-04,Dump Truck,Calabar Bridge,2025-02-19 13:30,2025-02-19 17:48,Electrical
+E0026,EXC-02,Excavator,Calabar Bridge,2025-04-28 10:15,2025-04-28 18:15,Engine
+E0120,FRK-02,Forklift,Port Harcourt Depot,2025-02-02 11:45,2025-02-02 20:45,Hydraulic
+E0011,DMP-05,Dump Truck,Port Harcourt Depot,2025-05-01 06:15,2025-05-01 09:33,Tyres / Tracks
+E0035,PAV-01,Paver,Calabar Bridge,2025-05-17 07:00,2025-05-17 13:54,Electrical
+E0041,DMP-10,Dump Truck,Eket Yard,2025-04-23 02:00,2025-04-23 14:54,Engine
+E0161,BUL-02,Bulldozer,Calabar Bridge,2025-07-11 09:00,,Hydraulic
+E0077,PAV-01,Paver,Calabar Bridge,2025-03-05 15:30,2025-03-05 21:18,Hydraulic
+E0020,PAV-09,Paver,Port Harcourt Depot,2025-05-17 18:00,2025-05-18 00:18, Tyres / Tracks 
+E0115,DMP-05,Dump Truck,Port Harcourt Depot,2025-02-28 14:15,2025-02-28 22:27,Hydraulic
+E0004,ROL-06,Roller,Port Harcourt Depot,2025-04-07 13:00,2025-04-07 16:24,Electrical
+E0013,FRK-10,Forklift,Calabar Bridge,2025-04-16 16:45,2025-04-17 12:57,Hydraulic
+E0063,EXC-08,Excavator,Uyo Road Project,2025-06-11 16:45,2025-06-11 21:03,Electrical
+E0044,BUL-07,Bulldozer,Calabar Bridge,2025-01-30 12:15,2025-01-30 21:09,operator damage
+E0061,EXC-09,Excavator,Eket Yard,2025-06-15 15:00,2025-06-15 23:12,Hydraulic
+E0024,PAV-09,Paver,Port Harcourt Depot,2025-06-11 19:00,2025-06-13 15:54,Hydraulic
+E0094,BUL-08,Bulldozer,Uyo Road Project,2025-03-20 04:15,2025-03-20 07:27, Tyres / Tracks 
+E0019,ROL-06,Roller,Port Harcourt Depot,2025-06-15 23:00,2025-06-16 05:24,Engine
+E0123,FRK-08,Forklift,Port Harcourt Depot,2025-06-23 22:45,2025-06-24 22:15,Engine
+E0066,PAV-01,Paver,Calabar Bridge,2025-03-28 15:30,2025-04-01 15:30,Operator damage
+E0126,BUL-08,Bulldozer,Uyo Road Project,2025-04-10 01:30,2025-04-10 06:54,Hydraulic
+E0151,ROL-10,Roller,Eket Yard,2025-03-20 02:00,2025-03-20 04:54,Tyres / Tracks
+E0048,ROL-06,Roller,Port Harcourt Depot,2025-03-20 14:45,2025-03-20 18:57,Tyres / Tracks
+E0036,DMP-04,Dump Truck,Calabar Bridge,2025-03-01 01:45,2025-03-01 20:39,Engine
+E0072,BUL-08,Bulldozer,Uyo Road Project,2025-01-18 04:30,2025-01-18 21:12,Engine
+E0144,PAV-05,Paver,Calabar Bridge,2025-02-21 01:30,2025-02-21 08:24,Hydraulic
+E0018,PAV-08,Paver,Calabar Bridge,2025-05-23 15:00,2025-05-23 20:42,Electrical
+E0005,PAV-09,Paver,Port Harcourt Depot,2025-04-06 16:15,2025-04-07 00:33,Tyres / Tracks
+E0131,PAV-06,Paver,Eket Yard,2025-01-31 01:00,2025-01-31 13:00,Hydraulic
+E0088,DMP-01,Dump Truck,Port Harcourt Depot,2025-04-08 16:15,2025-04-09 03:45,Hydraulic
+E0127,EXC-05,Excavator,Port Harcourt Depot,2025-05-09 23:15,2025-05-10 05:33,Tyres / Tracks
+E0162,BUL-07,Bulldozer,Calabar Bridge,2025-07-12 14:00,,Operator damage
+E0129,EXC-06,Excavator,Port Harcourt Depot,2025-01-30 12:45,2025-01-30 17:09,Hydraulic
+E0137,BUL-06,Bulldozer,Port Harcourt Depot,2025-07-07 00:45,2025-07-07 08:27,Electrical
+E0153,PAV-08,Paver,Calabar Bridge,2025-02-01 17:00,2025-02-01 21:42,Electrical
+E0083,ROL-02,Roller,Eket Yard,2025-06-10 12:30,2025-06-10 17:30,Tyres / Tracks
+E0017,ROL-02,Roller,Eket Yard,2025-02-11 06:15,2025-02-12 17:15,Operator damage
+E0155,PAV-07,Paver,Calabar Bridge,2025-03-30 14:00,2025-03-31 03:30,HYDRAULIC
+E0085,BUL-10,Bulldozer,Calabar Bridge,2025-01-26 00:30,2025-01-26 05:06,Hydraulic
+E0154,BUL-04,Bulldozer,Port Harcourt Depot,2025-04-18 04:00,2025-04-18 20:48,Engine
+E0069,EXC-10,Excavator,Eket Yard,2025-04-02 18:30,2025-04-03 17:48,Engine
+E0079,PAV-02,Paver,Calabar Bridge,2025-05-16 19:15,2025-05-18 13:51,OPERATOR DAMAGE
+E0014,PAV-05,Paver,Calabar Bridge,2025-01-16 19:00,2025-01-17 00:06,Tyres / Tracks
+E0059,FRK-07,Forklift,Eket Yard,2025-06-02 20:00,2025-06-03 13:54,Hydraulic
+E0047,FRK-10,Forklift,Calabar Bridge,2025-03-20 18:15,2025-03-21 09:09,Tyres / Tracks
+E0145,FRK-09,Forklift,Port Harcourt Depot,2025-01-21 01:15,2025-01-21 05:03,Electrical
+E0113,EXC-03,Excavator,Eket Yard,2025-02-05 00:30,2025-02-05 02:30,Tyres / Tracks
+E0103,FRK-10,Forklift,Calabar Bridge,2025-06-26 12:15,2025-06-27 15:21,Operator damage
+E0023,BUL-07,Bulldozer,Calabar Bridge,2025-04-18 19:45,2025-04-19 09:33,Engine
+E0030,DMP-07,Dump Truck,Eket Yard,2025-03-12 07:30,2025-03-12 13:18,Tyres / Tracks
+E0010,EXC-10,Excavator,Eket Yard,2025-07-01 20:45,2025-07-02 11:39,Hydraulic
+E0008,EXC-06,Excavator,Port Harcourt Depot,2025-01-29 08:15,2025-01-30 18:15,Hydraulic
+E0132,PAV-03,Paver,Port Harcourt Depot,2025-02-27 12:45,2025-02-28 00:15,Hydraulic
+E0027,EXC-08,Excavator,Uyo Road Project,2025-05-27 07:15,2025-05-27 10:03,ELECTRICAL
+E0142,EXC-07,Excavator,Port Harcourt Depot,2025-06-01 14:45,2025-06-02 01:39,Electrical
+E0117,ROL-04,Roller,Calabar Bridge,2025-01-20 10:45,2025-01-21 07:51,Hydraulic
+E0107,PAV-06,Paver,Eket Yard,2025-06-16 06:30,2025-06-16 18:36,Hydraulic
+E0039,PAV-01,Paver,Calabar Bridge,2025-07-10 10:30,2025-07-10 16:48,Electrical
+E0121,PAV-06,Paver,Eket Yard,2025-03-03 17:30,2025-03-05 02:18,Operator damage
+E0034,DMP-10,Dump Truck,Eket Yard,2025-01-21 04:45,2025-01-22 09:03,Engine
+E0056,BUL-09,Bulldozer,Port Harcourt Depot,2025-01-15 23:45,2025-01-16 01:51,Electrical
+E0043,FRK-01,Forklift,Eket Yard,2025-04-11 10:45,2025-04-11 15:51,Hydraulic
+E0099,PAV-02,Paver,Calabar Bridge,2025-06-11 21:00,2025-06-12 00:30,Tyres / Tracks
+E0015,PAV-05,Paver,Calabar Bridge,2025-03-19 14:00,2025-03-19 16:48,Tyres / Tracks
+E0007,PAV-04,Paver,Eket Yard,2025-04-06 01:00,2025-04-06 16:24,Hydraulic
+E0160,ROL-02,Roller,Eket Yard,2025-01-22 19:45,2025-01-23 04:51,Hydraulic
+E0105,EXC-08,Excavator,Uyo Road Project,2025-07-05 19:45,2025-07-06 07:45,Hydraulic
+E0070,PAV-02,Paver,Calabar Bridge,2025-04-05 03:30,2025-04-05 05:24,Tyres / Tracks
+E0038,BUL-09,Bulldozer,Port Harcourt Depot,2025-06-03 00:45,2025-06-03 07:27,Tyres / Tracks
+E0091,PAV-04,Paver,Eket Yard,2025-04-22 09:15,2025-04-23 03:15,Operator damage
+E0003,DMP-05,Dump Truck,Port Harcourt Depot,2025-06-10 08:45,2025-06-11 03:57, Engine 
+E0078,EXC-06,Excavator,Port Harcourt Depot,2025-01-31 15:15,2025-01-31 17:09,Electrical
+E0006,PAV-08,Paver,Calabar Bridge,2025-03-03 18:45,2025-03-03 23:39,Tyres / Tracks
+E0060,FRK-04,Forklift,Uyo Road Project,2025-02-11 07:15,2025-02-11 22:21,Engine
+E0053,ROL-07,Roller,Eket Yard,2025-07-10 00:15,2025-07-10 08:09,Hydraulic
+E0047,FRK-10,Forklift,Calabar Bridge,2025-03-20 18:15,2025-03-21 09:09,Tyres / Tracks
+E0124,FRK-04,Forklift,Uyo Road Project,2025-07-02 19:15,2025-07-03 22:51,Operator damage
+E0062,PAV-05,Paver,Calabar Bridge,2025-04-10 14:45,2025-04-10 22:39,Hydraulic
+E0101,PAV-04,Paver,Eket Yard,2025-04-01 06:45,2025-04-02 06:45,Hydraulic
+E0033,EXC-07,Excavator,Port Harcourt Depot,2025-03-19 00:30,2025-03-19 14:30,Tyres / Tracks
+E0102,FRK-05,Forklift,Port Harcourt Depot,2025-05-28 16:45,2025-05-29 04:27,Engine
+E0045,ROL-06,Roller,Port Harcourt Depot,2025-04-18 23:30,2025-04-19 16:00,Hydraulic
+E0095,PAV-10,Paver,Uyo Road Project,2025-05-18 00:15,2025-05-18 22:27,Hydraulic
+E0050,EXC-10,Excavator,Eket Yard,2025-07-07 04:45,2025-07-07 12:57,Engine
+E0125,DMP-02,Dump Truck,Port Harcourt Depot,2025-02-13 21:00,2025-02-14 02:54,Electrical
+E0098,EXC-10,Excavator,Eket Yard,2025-05-22 12:30,2025-05-22 14:42,Tyres / Tracks
+E0002,PAV-08,Paver,Calabar Bridge,2025-02-19 15:30,2025-02-20 11:24,Hydraulic
+E0046,EXC-04,Excavator,Uyo Road Project,2025-05-17 21:15,2025-05-17 23:51,Electrical
+E0049,DMP-01,Dump Truck,Port Harcourt Depot,2025-02-12 01:45,2025-02-13 01:03,Engine
+E0073,DMP-04,Dump Truck,Calabar Bridge,2025-05-09 11:15,2025-05-10 04:57,Engine
+E0084,BUL-07,Bulldozer,Calabar Bridge,2025-04-17 12:45,2025-04-17 17:33,Tyres / Tracks
+E0116,PAV-09,Paver,Port Harcourt Depot,2025-03-24 17:45,2025-03-24 22:27,Hydraulic
+E0111,FRK-03,Forklift,Port Harcourt Depot,2025-05-11 18:45,2025-05-12 05:51,Hydraulic
+E0096,PAV-07,Paver,Calabar Bridge,2025-01-19 12:30,2025-01-19 18:24,Electrical
+E0028,ROL-07,Roller,Eket Yard,2025-02-01 17:30,2025-02-02 04:00,ENGINE
+E0097,BUL-05,Bulldozer,Eket Yard,2025-06-27 02:30,2025-06-27 10:18,Electrical
+E0119,FRK-06,Forklift,Uyo Road Project,2025-02-05 11:30,2025-02-05 18:42,Tyres / Tracks
+E0109,PAV-10,Paver,Uyo Road Project,2025-05-21 08:30,2025-05-22 05:18,Engine
+E0104,DMP-08,Dump Truck,Uyo Road Project,2025-05-17 20:15,2025-05-18 11:15,Hydraulic
+E0140,PAV-09,Paver,Port Harcourt Depot,2025-02-28 22:45,2025-03-01 14:39,Tyres / Tracks
+E0032,EXC-05,Excavator,Port Harcourt Depot,2025-03-11 16:00,2025-03-11 21:30,Hydraulic
+E0082,DMP-03,Dump Truck,Port Harcourt Depot,2025-04-11 13:30,2025-04-11 18:24,Electrical
+E0087,PAV-04,Paver,Eket Yard,2025-07-05 17:45,2025-07-06 00:09,Hydraulic
+E0051,FRK-01,Forklift,Eket Yard,2025-04-23 18:30,2025-04-24 00:42,Hydraulic
+E0001,ROL-06,Roller,Port Harcourt Depot,2025-06-09 18:45,2025-06-11 00:27,Engine
+E0064,FRK-09,Forklift,Port Harcourt Depot,2025-03-12 01:30,2025-03-12 04:30,Electrical
+E0029,EXC-07,Excavator,Port Harcourt Depot,2025-06-01 10:30,2025-06-01 18:42,Operator damage
+E0147,DMP-01,Dump Truck,Port Harcourt Depot,2025-01-20 19:30,2025-01-21 04:54,Engine
+E0068,DMP-09,Dump Truck,Uyo Road Project,2025-03-24 17:15,2025-03-24 20:39,Tyres / Tracks
+E0080,DMP-06,Dump Truck,Port Harcourt Depot,2025-05-18 05:15,2025-05-19 04:09,Engine
+E0133,FRK-06,Forklift,Uyo Road Project,2025-04-14 08:00,2025-04-14 14:18,Tyres / Tracks
+E0092,EXC-10,Excavator,Eket Yard,2025-02-09 11:15,2025-02-09 18:39,Electrical
+E0042,DMP-03,Dump Truck,Port Harcourt Depot,2025-06-25 02:30,2025-06-25 07:54,Tyres / Tracks
+E0114,DMP-06,Dump Truck,Port Harcourt Depot,2025-05-24 18:45,2025-05-25 13:21,Hydraulic
+E0152,EXC-07,Excavator,Port Harcourt Depot,2025-04-10 08:15,2025-04-10 12:27,Hydraulic
+E0054,ROL-03,Roller,Calabar Bridge,2025-04-23 22:30,2025-04-24 04:00,Hydraulic
+E0067,BUL-02,Bulldozer,Calabar Bridge,2025-06-30 16:30,2025-07-01 00:00, Hydraulic 
+E0106,EXC-02,Excavator,Calabar Bridge,2025-05-28 19:30,2025-05-29 02:30,Electrical
+E0075,FRK-04,Forklift,Uyo Road Project,2025-03-16 22:00,2025-03-17 02:12,Tyres / Tracks
+E0118,FRK-01,Forklift,Eket Yard,2025-03-03 21:45,2025-03-04 03:27,Hydraulic
+E0135,ROL-03,Roller,Calabar Bridge,2025-04-29 03:15,2025-05-02 05:15,Operator damage
+E0163,ROL-04,Roller,Calabar Bridge,2025-07-13 07:00,,Tyres / Tracks
+E0157,EXC-08,Excavator,Uyo Road Project,2025-07-06 06:00,2025-07-06 12:06,Hydraulic
+E0143,BUL-05,Bulldozer,Eket Yard,2025-02-01 17:15,2025-02-01 23:09,Tyres / Tracks
+E0009,BUL-06,Bulldozer,Port Harcourt Depot,2025-03-04 03:30,2025-03-04 07:06,Hydraulic
+E0065,DMP-09,Dump Truck,Uyo Road Project,2025-04-26 11:30,2025-04-26 15:06,Electrical
+E0108,ROL-02,Roller,Eket Yard,2025-02-23 18:30,2025-02-24 09:30,Operator damage
+E0136,BUL-10,Bulldozer,Calabar Bridge,2025-04-07 15:00,2025-04-07 22:42,Tyres / Tracks

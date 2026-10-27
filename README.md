@@ -96,3 +96,49 @@ Set PG_USER, PG_PASSWORD, PG_HOST, PG_PORT and PG_DB (internet access is needed
 for the API), then run `python project3/p3_run.py`.
 
 Requires: pandas, requests, sqlalchemy, psycopg2-binary
+
+## Project 4: Configuration-driven ETL loader
+
+A reusable loader controlled by `config.yaml`. Each source (CSV or API) is
+described in the config: location, SQL column types, primary key, required
+columns, cleaning rules and validation checks. The same code loads every source,
+so adding a source means editing the config instead of writing a new script.
+All data is synthetic, standing in for a maintenance-system (CMMS) export.
+
+### Sources loaded
+- `assets`: 60 equipment units (CSV)
+- `maintenance_events`: breakdown and repair records (CSV)
+- `sites`: the four sites with state and approximate coordinates (CSV)
+- `weather_daily`: daily weather from the Open-Meteo API (incremental)
+
+### What the pipeline does
+1. Read the source (CSV, or API with retries and backoff)
+2. Clean: trim spaces, standardize capitalization, remove exact duplicates
+3. Convert columns to their declared types, warning if a value cannot convert
+4. Validate: required columns, unique primary key, foreign keys (every asset in
+   the events exists), and repair time never before breakdown time
+5. Upsert into PostgreSQL (`INSERT ... ON CONFLICT DO UPDATE`), so re-running
+   never duplicates rows
+
+### Incremental loading
+For the API source, the pipeline finds the latest date already loaded per site
+and requests only from three days before it (a lookback, in case recent values
+are revised). A later run fetched 12 rows, not the full history.
+
+### Results
+- 165 event rows became 163 after removing 2 exact duplicates; 3 open work
+  orders keep a blank repair time and are excluded when averaging repair times
+- Two runs in a row left every table unchanged: 60, 163, 780 and 4 rows
+- A fourth source (`sites`) was added with only a CSV and a config block, no code
+- Mean time to repair from the loaded data: 12.3 hours (synthetic data)
+
+### Limitations
+Each source is validated and loaded one at a time, so a failure in one source
+does not undo sources already loaded. The validation failure path has not yet
+been tested with deliberately bad data.
+
+### How to run
+Put PG_USER, PG_PASSWORD, PG_HOST, PG_PORT and PG_DB in a `.env` file (not
+committed) or in the environment, then run `python project4/p4_run.py`.
+
+Requires: pandas, requests, sqlalchemy, psycopg2-binary, pyyaml, python-dotenv
