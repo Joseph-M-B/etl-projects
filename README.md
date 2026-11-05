@@ -5,9 +5,6 @@ Hands-on ETL pipelines built with Python, pandas, SQLAlchemy and PostgreSQL.
 👉 **[Project 5: Multi-Engine CSV Pipeline (Python, pandas, Polars)](https://github.com/Joseph-M-B/Bank_Transaction_Pipeline)** is hosted in a separate repository. It focuses on high-performance transformation, batch/incremental state management, and drop-audit logging.
 
 ## Project 1: Messy CSV cleaning and loading
-...
-
-## Project 1: Messy CSV cleaning and loading
 
 Takes a deliberately messy equipment-rental CSV (inconsistent column names,
 mixed date formats, text inside number columns, duplicates, blanks), cleans it
